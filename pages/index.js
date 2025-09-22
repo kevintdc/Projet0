@@ -187,6 +187,15 @@ function HomeContent() {
       <footer className="bg-gray-950 text-gray-400 py-6 text-center text-sm">
         &copy; {new Date().getFullYear()} Toudic Development. Tous droits
         réservés.
+        <br />
+        <a
+          href="https://www.instagram.com/toudic.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-indigo-500 hover:underline mt-2 inline-block"
+        >
+          Suivez-moi sur Instagram
+        </a>
       </footer>
     </>
   );
