@@ -18,7 +18,9 @@ export default function Navbar() {
       <header className="w-full fixed top-0 left-0 z-50 bg-[#003479] text-white shadow-md md:h-20 h-14">
         <div className="max-w-6xl mx-auto flex items-center justify-between px-6 h-full">
           {/* Nom d'entreprise - visible uniquement sur desktop */}
-          <div className="text-xl font-bold hidden md:block">Toudic Dev</div>
+          <div className="text-xl font-bold hidden md:block">
+            Toudic Development
+          </div>
 
           {/* Liens desktop */}
           <nav className="hidden md:flex space-x-6">
