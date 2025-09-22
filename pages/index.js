@@ -64,7 +64,7 @@ function HomeContent() {
 
       <Navbar />
 
-      <main className="bg-[#003479] text-white min-h-screen">
+      <main className="pt-16 bg-[#003479] text-white min-h-screen">
         <section
           id="home"
           className="h-screen flex flex-col justify-center items-center text-center px-4"
@@ -188,10 +188,10 @@ function HomeContent() {
         réservés.
         <br />
         <a
-          href="https://www.instagram.com/toncompte/"
+          href="https://www.instagram.com/toudic.dev/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#206fd6] hover:underline mt-2 inline-block"
+          className="text-[#f542bf] hover:underline mt-2 inline-block"
         >
           Suivez-moi sur Instagram
         </a>
