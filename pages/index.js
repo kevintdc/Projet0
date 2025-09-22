@@ -56,14 +56,15 @@ function HomeContent() {
   return (
     <>
       <Head>
-        <title>Toudic Development</title>
+        <title>
+          Toudic Development | Création de sites web & design freelance
+        </title>
         <meta name="description" content="Solutions web et design freelance" />
       </Head>
 
       <Navbar />
 
-      <main className="bg-gray-950 text-white min-h-screen">
-        {/* HERO */}
+      <main className="bg-[#003479] text-white min-h-screen">
         <section
           id="home"
           className="h-screen flex flex-col justify-center items-center text-center px-4"
@@ -76,9 +77,8 @@ function HomeContent() {
             du graphisme (logos, cartes de visite, etc.).
           </p>
         </section>
-
         {/* SERVICES */}
-        <section id="services" className="py-20 px-6 bg-gray-900 text-white">
+        <section id="services" className="py-20 px-6 bg-[#002657] text-white">
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-12">Services</h2>
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -107,7 +107,7 @@ function HomeContent() {
         </section>
 
         {/* PORTFOLIO */}
-        <section id="portfolio" className="py-20 px-6 bg-gray-950 text-white">
+        <section id="portfolio" className="py-20 px-6 bg-[#003479] text-white">
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-12">Portfolio</h2>
             <p className="text-gray-300 mb-8">
@@ -126,10 +126,9 @@ function HomeContent() {
         </section>
 
         {/* CONTACT */}
-        <section id="contact" className="py-20 px-6 bg-gray-900 text-white">
+        <section id="contact" className="py-20 px-6 bg-[#002657] text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-12">Contact</h2>
-
             <form
               className="space-y-6 max-w-xl mx-auto"
               onSubmit={handleSubmit}
@@ -163,7 +162,7 @@ function HomeContent() {
               />
               <button
                 type="submit"
-                className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded font-semibold transition"
+                className="bg-[#206fd6] hover:bg-[#5891dd] text-white px-6 py-3 rounded font-semibold transition"
               >
                 Envoyer
               </button>
@@ -184,15 +183,15 @@ function HomeContent() {
         </section>
       </main>
 
-      <footer className="bg-gray-950 text-gray-400 py-6 text-center text-sm">
+      <footer className="bg-[#003479] text-white py-6 text-center text-sm">
         &copy; {new Date().getFullYear()} Toudic Development. Tous droits
         réservés.
         <br />
         <a
-          href="https://www.instagram.com/toudic.dev/"
+          href="https://www.instagram.com/toncompte/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-indigo-500 hover:underline mt-2 inline-block"
+          className="text-[#206fd6] hover:underline mt-2 inline-block"
         >
           Suivez-moi sur Instagram
         </a>
