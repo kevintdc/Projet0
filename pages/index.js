@@ -59,7 +59,25 @@ function HomeContent() {
         <title>
           Toudic Development | Création de sites web & design freelance
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Solutions web et design freelance" />
+        <meta name="author" content="Toudic Development" />
+        <meta
+          name="keywords"
+          content="web, design, freelance, développement, création, site internet, graphisme, aude, limoux, 
+        développeur web, carcassonne, aude, meilleur, compétent, qualité, prix, limoux et alentours"
+        />
+        <meta
+          property="og:title"
+          content="Toudic Development | Création de sites web & design freelance"
+        />
+        <meta
+          property="og:description"
+          content="Solutions web et design freelance"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://toudicdev.fr" />
+        <meta property="og:image" content="/og-image.png" />
       </Head>
 
       <Navbar />
