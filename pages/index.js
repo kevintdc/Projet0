@@ -65,7 +65,8 @@ function HomeContent() {
         <meta
           name="keywords"
           content="web, design, freelance, développement, création, site internet, graphisme, aude, limoux, 
-        développeur web, carcassonne, aude, meilleur, compétent, qualité, prix, limoux et alentours"
+        développeur web, carcassonne, aude, meilleur, compétent, qualité, prix, limoux et alentours, dev, toudic, toudic dev, toudicdev, toudic development, toudic-development,
+        toudic developpement"
         />
         <meta
           property="og:title"
